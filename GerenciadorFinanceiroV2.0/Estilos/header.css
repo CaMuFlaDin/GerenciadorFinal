@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 85px;
+    border: none;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);
+}
+.nav_bar {
+    margin: 2em;
+}
+.ul_bar{
+    list-style-type: none;
+    text-align: center;
+}
+.li_bar{
+    height: 20px;
+    margin-right: 0px;
+    border-right: 1px solid #1976D2;
+    padding: 0 20px;
+    display: inline;
+}
+.li_bar a {
+    text-decoration: none;
+    color: #BBDEFB;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+.li_bar a:hover{
+  color: #1375DD;
+}
+.menuAbove{
+  margin-top: 120px;
+}

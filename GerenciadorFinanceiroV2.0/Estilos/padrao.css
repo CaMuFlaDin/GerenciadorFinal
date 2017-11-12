@@ -1,0 +1,173 @@
+/*Todas as páginas*/
+*{
+	margin:0;
+	border:0;
+	padding:0;
+}
+* [disabled]{
+	cursor:default;
+}
+.divideBig{
+	border:1px solid #333;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.divideSmall{
+	border:0.5px solid #333;
+	margin:10px 20px 10px 20px;
+}
+html, body{
+	text-align:center;
+	margin:0 auto;
+	margin-bottom:10px;
+}
+table,th,td{
+	border:1px solid #333;
+	padding:5px;
+}
+table{
+	margin:0 auto;
+}
+
+/*Opções de input e formulário*/
+input[type="text"], input[type="password"], input[type="date"], input[type="image"], input[type="number"], select, textarea{
+	border:1px solid #333;
+}
+input, select{
+	width:200px;
+	height:50px;
+}
+input[type="image"]{
+	width:50px;
+	height:50px;
+}
+input[type="submit"], input[type="button"]{
+	background-color:#589B42;
+	color:#FFF;
+	transition:0.4s;
+}
+input[type="submit"]:hover, input[type="button"]:hover{
+	background-color:#28BB12;
+}
+input[type="date"]::-webkit-inner-spin-button{
+	display:none;
+}
+img{
+	width:25px;
+}
+
+/*Classes*/
+.tdImagem{
+	text-align:center;
+}
+.menuAbove{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.tabela input{
+	width:30px;
+	height:30px;
+}
+.saldoAtual{
+	font-size:30px;
+	color:#333;
+}
+
+/*Quanto tempo até o prazo*/
+.atrasado{
+	background-color:#F00;
+	color:#FFF;
+}
+.naSemana{
+	background-color:#77F;
+	color:#FFF;
+}
+.hoje{
+	background-color:#F0F;
+	color:#FFF;
+}
+.aPagar{
+	background-color:#FD0;
+	color:#000;
+}
+.pago{
+	background-color:#4F4;
+	color:#333;
+}
+.inputESubmit{
+	display:inline-block;
+	border:2px solid #333;
+	padding:1px;
+}
+.inputESubmit input, .inputESubmit select{
+	width:100%!important;
+}
+.inputESubmit input[type="date"], .inputESubmit select{
+	font-size:16px;
+}
+.datas{
+	display:inline-block;
+	width:100%;
+}
+.voltar{
+	display:inline-block;
+	margin-top:10px;
+	width:300px;
+	margin-bottom:10px;
+}
+.adicionar input, .adicionar select{
+	width:200px;
+	height:30px;
+}
+
+.dividir{
+	flex-grow:1;
+	flex-shrink:1;
+	flex-basis:200px;
+}
+.voltar{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	width:100px;
+}
+.voltar input{
+	width:100%;
+}
+.logout{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	width:100px;
+}
+.logout input{
+	width:100%;
+}
+.adm{
+	position:fixed;
+	bottom:10px;
+	left:10px;
+	width:100px;
+}
+.adm input{
+	width:100%;
+}
+
+/*Categorias*/
+.receita{
+	background-color:#4F4;
+	color:#333;
+}
+.despesa{
+	background-color:#F44;
+	color:#FFF;
+}
+.ambos{
+	background-color:#777;
+	color:#FFF;
+}
+.newCat{
+	font-size:16px;
+}
+
